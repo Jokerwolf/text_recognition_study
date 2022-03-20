@@ -1,0 +1,23 @@
+{
+  "name": "text_recognition_study",
+  "version": "0.1.0",
+  "description": "Azure text recognition capabilities study",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@azure/cognitiveservices-computervision": "^8.1.0",
+    "@azure/identity": "^1.4.0",
+    "@azure/keyvault-secrets": "^4.2.0",
+    "async": "^3.2.0",
+    "ms-rest-azure": "^3.0.0",
+    "prompts": "^2.4.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.30.0"
+  }
+}
